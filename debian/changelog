@@ -1,0 +1,61 @@
+node-regjsgen (0.6.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 27 Oct 2021 19:58:37 +0200
+
+node-regjsgen (0.5.2+ds-2) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Mark the require autopkgtest as superficial.
+  * Bump debhelper-compat to level 13.
+  * Bump standards-version to 4.6.0.
+  * Declare d/rules doesn't require root.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 28 Aug 2021 22:18:08 +0200
+
+node-regjsgen (0.5.2+ds-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Julien Puydt ]
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Wed, 27 May 2020 22:00:08 +0200
+
+node-regjsgen (0.5.1+ds-1) unstable; urgency=medium
+
+  * Mark the package M-A: foreign following hinter.
+  * Drop d/compat and use debian-compat 12.
+  * Bump std-vers to 4.4.1.
+  * Install files in /usr/share following policy change.
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 24 Oct 2019 11:00:15 +0200
+
+node-regjsgen (0.5.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Use my debian.org mail address.
+    - Bump dh compat to 11.
+    - Bump std-ver to 4.2.1.
+    - Point Vcs-* fields to salsa.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 26 Oct 2018 17:17:22 +0200
+
+node-regjsgen (0.4.0+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 22 Jan 2018 07:48:39 +0100
+
+node-regjsgen (0.3.0+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #872824)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Mon, 21 Aug 2017 17:59:29 +0200
