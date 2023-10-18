@@ -1,6 +1,0 @@
-Tests: require
-Restrictions: superficial
-Depends: @
-
-Tests: compose
-Depends: @, node-regjsparser

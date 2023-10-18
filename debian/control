@@ -3,17 +3,20 @@ Section: javascript
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Julien Puydt <jpuydt@debian.org>
-Build-Depends: debhelper-compat (= 13), nodejs
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-regjsparser <!nocheck>
 Standards-Version: 4.6.0
-Rules-Requires-Root: no
-Homepage: https://github.com/demoneaux/regjsgen
-Vcs-Git: https://salsa.debian.org/js-team/node-regjsgen.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-regjsgen
+Vcs-Git: https://salsa.debian.org/js-team/node-regjsgen.git
+Homepage: https://github.com/demoneaux/regjsgen
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
 
 Package: node-regjsgen
 Architecture: all
+Depends: ${misc:Depends}
 Multi-Arch: foreign
-Depends: ${misc:Depends}, nodejs
 Description: Regular expression from abstract syntax trees in Node.js
  This module accepts an abstract syntax tree representing a regular expression
  (like the ones created by regjsparser, for example), and turns them into a
